@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tXML>
+  <Header>
+    <Source>DW_LACOSTE</Source>
+    <Action_Type>Update</Action_Type>
+    <Reference_ID>a0050101</Reference_ID>
+    <Message_Type>Order Confirmation</Message_Type>
+    <Company_ID>1</Company_ID>
+    <Msg_Locale>English (United States)</Msg_Locale>
+    <Internal_Reference_ID>
+  </Internal_Reference_ID>
+</Header>
+<Message>
+<Order>
+  <OrderNumber>a0050101</OrderNumber>
+  <OrderCaptureDate>12/05/2019 16:21:38</OrderCaptureDate>
+  <OrderType>ECM</OrderType>
+  <EnteredLocation>
+</EnteredLocation>
+<EntryType>WEB</EntryType>
+<Canceled>false</Canceled>
+<Confirmed>true</Confirmed>
+<OnHold>true</OnHold>
+<ReasonCode>Fraud Review</ReasonCode>
+<PaymentStatus>PAID</PaymentStatus>
+<CustomerInfo>
+<CustomerId>ECFR000065501</CustomerId>
+<CustomerFirstName>rachid</CustomerFirstName>
+<CustomerLastName>rachid</CustomerLastName>
+<CustomerPhone>0574342356</CustomerPhone>
+<CustomerEmail>rachid.naaim@itelios.com</CustomerEmail>
+<CustomerType>
+</CustomerType>
+</CustomerInfo>
+<PaymentDetails>
+<PaymentDetail>
+<ExternalPaymentDetailId>5755629137366816904008</ExternalPaymentDetailId>
+<PaymentMethod>Credit Card</PaymentMethod>
+<CardType>Visa</CardType>
+<AccountNumber>
+</AccountNumber>
+<AccountDisplayNumber>***************1111</AccountDisplayNumber>
+<NameAsOnCard>r r</NameAsOnCard>
+<CardExpiryMonth>1</CardExpiryMonth>
+<CardExpiryYear>2021</CardExpiryYear>
+<SecurityCode>
+</SecurityCode>
+<ReqAuthorizationAmount>90.0</ReqAuthorizationAmount>
+<ChargeSequence>1</ChargeSequence>
+<Encrypted>false</Encrypted>
+<ReferenceFields>
+  <ReferenceField1>true</ReferenceField1>
+  <ReferenceField4>702</ReferenceField4>
+</ReferenceFields>
+<BillToDetail>
+<BillToFirstName>rachid</BillToFirstName>
+<BillToLastName>rachid</BillToLastName>
+<BillToAddressLine1>19, rue de provence</BillToAddressLine1>
+<BillToAddressLine2>
+</BillToAddressLine2>
+<BillToCity>Paris</BillToCity>
+<BillToState>FR</BillToState>
+<BillToPostalCode>75003</BillToPostalCode>
+<BillToCountry>FR</BillToCountry>
+<BillToCounty>
+</BillToCounty>
+<BillToPhone>0574342356</BillToPhone>
+<BillToEmail>rachid.naaim@itelios.com</BillToEmail>
+</BillToDetail>
+<PaymentTransactionDetails>
+<PaymentTransactionDetail>
+<ExternalPaymentTransactionId>AUTCCa0050101</ExternalPaymentTransactionId>
+<TransactionType>Authorization</TransactionType>
+<MerchantID>lacoste_fr_cc</MerchantID>
+<MerchantPassword>
+</MerchantPassword>
+<MerchantSignature>
+</MerchantSignature>
+<RequestedAmount>90.0</RequestedAmount>
+<RequestId>AUTCCa0050101</RequestId>
+<RequestToken>AUTTOKa0050101</RequestToken>
+<FollowOnId>
+</FollowOnId>
+<FollowOnToken>
+</FollowOnToken>
+<RequestedDTTM>12/05/2019 16:21:38</RequestedDTTM>
+<ProcessedAmount>
+</ProcessedAmount>
+<TransactionDTTM>12/05/2019 16:21:38</TransactionDTTM>
+<ReconciliationId>a0050101</ReconciliationId>
+<TransactionDecision>Success</TransactionDecision>
+<FraudValidationTransaction>
+<RequestId>AUTCCa0050101</RequestId>
+<FraudValidationStatus>REVIEW</FraudValidationStatus>
+<TransactionDTTM>12/05/2019 16:21:38</TransactionDTTM>
+<CreatedBy>DW_LACOSTE</CreatedBy>
+</FraudValidationTransaction>
+</PaymentTransactionDetail>
+<PaymentTransactionDetail>
+<ExternalPaymentTransactionId>5755629137366816904008</ExternalPaymentTransactionId>
+<TransactionType>Settlement</TransactionType>
+<MerchantID>lacoste_fr_cc</MerchantID>
+<MerchantPassword>
+</MerchantPassword>
+<MerchantSignature>
+</MerchantSignature>
+<RequestedAmount>90.0</RequestedAmount>
+<RequestId>5755629102466815304008</RequestId>
+<RequestToken>Axj//wSTOANmXc4VF9NIAAYRhYMGrBiwYqNP/R5AvAVGn/o8gg+kOjKJHuGTSTLdIDs/3AwJyZwBsx8IJXKQpAAAWgak</RequestToken>
+<FollowOnId>AUTCCa0050101</FollowOnId>
+<FollowOnToken>AUTTOKa0050101</FollowOnToken>
+<RequestedDTTM>12/05/2019 16:21:38</RequestedDTTM>
+<ProcessedAmount>90.0</ProcessedAmount>
+  <TransactionDTTM>12/05/2019 16:21:38</TransactionDTTM>
+  <ReconciliationId>a0050101</ReconciliationId>
+  <TransactionDecision>Success</TransactionDecision>
+</PaymentTransactionDetail>
+</PaymentTransactionDetails>
+</PaymentDetail>
+</PaymentDetails>
+<ChargeDetails>
+<ChargeDetail>
+<ExtChargeDetailId>20</ExtChargeDetailId>
+<ChargeCategory>Shipping</ChargeCategory>
+<ChargeName>Shipping</ChargeName>
+<ChargeAmount>0.0</ChargeAmount>
+<UnitCharge>
+</UnitCharge>
+<MarkForDeletion>
+</MarkForDeletion>
+<IsOverridden>
+</IsOverridden>
+</ChargeDetail>
+</ChargeDetails>
+<DiscountDetails>
+</DiscountDetails>
+<WMProcessInfo>
+  <IntlGoodsDesc>FASHION</IntlGoodsDesc>
+  <RefTextField6>ECFR000065501</RefTextField6>
+</WMProcessInfo>
+<Notes>
+<Note>
+<NoteType>(Header) VAS Gift Message</NoteType>
+<NoteSeq>1</NoteSeq>
+<NoteText>G1b2AzERTy</NoteText>
+<Visibility/>
+</Note>
+<Note>
+<NoteType>(Cust. Language)</NoteType>
+<NoteSeq>2</NoteSeq>
+<NoteText>fr</NoteText>
+</Note>
+</Notes>
+<ReferenceFields>
+  <ReferenceField3>702</ReferenceField3>
+  <ReferenceField4>ALLOCATED</ReferenceField4>
+  <ReferenceField5>EUR</ReferenceField5>
+  <ReferenceField10>
+  </ReferenceField10>
+</ReferenceFields>
+<OrderLines>
+  <OrderLine>
+    <LineNumber>1</LineNumber>
+    <ItemID>3608079488209</ItemID>
+    <AllocationInfo>
+    <RequiredCapacityPerUnit>1</RequiredCapacityPerUnit>
+  </AllocationInfo>
+  <IsReturnable>false</IsReturnable>
+  <PriceInfo>
+    <Price>90</Price>
+    <ExtendedPrice>90.0</ExtendedPrice>
+    <PurchasePrice>90.0</PurchasePrice>
+  </PriceInfo>
+  <Quantity>
+  <OrderedQty>1</OrderedQty>
+  <OrderedQtyUOM>Units</OrderedQtyUOM>
+</Quantity>
+<ShippingInfo>
+<PromisedDeliveryBy>
+</PromisedDeliveryBy>
+<RequestedDeliveryBy>01/04/2020 00:00:00</RequestedDeliveryBy>
+<ShipVia>STND</ShipVia>
+<ShippingAddress>
+<ShipToFirstName>rachid</ShipToFirstName>
+<ShipToLastName>rachid</ShipToLastName>
+<ShipToAddressLine1>19, rue de provence</ShipToAddressLine1>
+<ShipToAddressLine2>
+</ShipToAddressLine2>
+<ShipToCity>Paris</ShipToCity>
+<ShipToState>FR</ShipToState>
+<ShipToPostalCode>75003</ShipToPostalCode>
+<ShipToCounty>
+</ShipToCounty>
+<ShipToCountry>FR</ShipToCountry>
+<ShipToPhone>0574342356</ShipToPhone>
+<ShipToEmail>rachid.naaim@itelios.com</ShipToEmail>
+<ShipToFax>
+</ShipToFax>
+<ShippingAddressVerified>true</ShippingAddressVerified>
+</ShippingAddress>
+</ShippingInfo>
+<DiscountDetails>
+</DiscountDetails>
+<TaxDetails>
+</TaxDetails>
+<Notes>
+<Note>
+<NoteSeq>1</NoteSeq>
+<NoteType>Personalized polo</NoteType>
+<NoteText>PC001,PS,BC001,SC001,CRF5690_000_30,CP1,MF4,MP1,MC031,FDF</NoteText>
+</Note>
+</Notes>
+<LineReferenceFields>
+  <ReferenceField1>
+  </ReferenceField1>
+</LineReferenceFields>
+</OrderLine>
+</OrderLines>
+</Order>
+</Message>
+</tXML>
